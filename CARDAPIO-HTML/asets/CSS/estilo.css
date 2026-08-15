@@ -1,0 +1,57 @@
+:root{
+
+    --text: #ffcd06;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background-color: #fafaf9;
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+
+    background-color: #ffffff;
+    
+    }
+
+header .brand {
+    display: flex;
+    align-items: center;
+    gap:0.75rem;
+    
+}
+header .brand img {
+    height:3rem;
+}
+
+header .brand h1 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+
+}
+header . brand p {
+    margin-top: 0.25px;
+    font-size: 0.8rem;
+    color: #78716c
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+}
+
+header . cart-button img {
+    width:1.25rem;
+    height: 1.25rem;
+}
