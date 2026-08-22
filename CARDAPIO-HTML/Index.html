@@ -1,51 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CARDÁPIO DIGITAL</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./asets/CSS/estilo.css">
-
 </head>
 
 <body>
     <header>
-        <div class = brand> 
-            <img src="./asets/img/logo_lanchonete.svg" alt="logo">
+        <div class="container">
+            <div class="brand">
+                <img src="./asets/img/logo_lanchonete.svg" alt="logo">
 
-            <div><h1>CARDÁPIO DIGITAL
+                <div>
+                    <h1>CARDÁPIO DIGITAL</h1>
+                    <p>faça o pedido pelo nosso cardápio digital</p>
+                </div>
+            </div>
 
-                <p>faça o pedido pelo nosso cardapio digital</p>
-                
-            </h1></div>
-        </div>
-        <div class="cart-button">
-            <img src="./asets/img/cart.svg" alt="carrinho">   
-
+            <div class="cart-button">
+                <img src="./asets/img/cart.svg" alt="carrinho">
+            </div>
         </div>
     </header>
 
     <nav>
-        <!--colocar navegação aqui-->
-
+        <ul class="container">
+            <li><a href="#" class="active">todos</a></li>
+            <li><a href="#">lanches</a></li>
+            <li><a href="#">porções</a></li>
+            <li><a href="#">bebidas</a></li>
+            <li><a href="#">sobremesas</a></li>
+        </ul>
     </nav>
 
-<main>
-    <!-- colocar o conteudo principal aqui (cards de produtos)-->
-
-</main>
-
-<footer>
-    <!-- colocar rodapé aqui-->
-
-     <p> cardapio digital desenvolvimento de aplicações web </p>
-     <p> rua mato grosso  N 200 pato branco PR</p>
-
-</footer>
+    <main>
+        <!-- colocar o conteudo principal aqui (cards de produtos)-->
+    </main>
 
 
+    <footer>
+        <div class="container">
+            <p>cardápio digital desenvolvimento de aplicações web</p>
+            <p>rua mato grosso, N 200, pato branco PR</p>
+        </div>
+    </footer>
 
 </body>
 
